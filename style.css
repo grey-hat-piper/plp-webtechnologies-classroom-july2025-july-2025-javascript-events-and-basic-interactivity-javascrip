@@ -1,0 +1,46 @@
+* {margin: 0px;
+box-sizing: border-box;}
+
+body {
+    background-color: aqua;
+}
+
+body.dark-mode {
+    background-color: grey;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 5vmax;
+
+}
+
+nav {
+    background-color: antiquewhite;
+
+}
+
+nav ul{
+    display: none;
+}
+
+#navbutton{
+    padding: 10px;
+}
+
+#modeswitch {
+    padding: 10px;
+    margin: 2vmin;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: black;
+}
+
+body.dark-mode #modeswitch{
+    background-color: aliceblue;
+    color: black;
+}
